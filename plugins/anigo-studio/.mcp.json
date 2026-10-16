@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "anigo-studio": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${CODEBUDDY_PLUGIN_ROOT}/scripts/bridge.mjs"]
+    }
+  }
+}

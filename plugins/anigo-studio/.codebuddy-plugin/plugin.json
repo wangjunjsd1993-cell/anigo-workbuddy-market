@@ -1,0 +1,7 @@
+{
+  "name": "anigo-studio",
+  "version": "0.1.0",
+  "description": "用本人 Anigo Studio 账号，在 WorkBuddy 里按公司端到端 SOP 立项、改编、写剧本与分镜提示词（试点：到分镜为止，不含付费出图与烧片）。",
+  "author": { "name": "Anigo" },
+  "mcpServers": "./.mcp.json"
+}
