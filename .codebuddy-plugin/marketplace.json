@@ -1,0 +1,14 @@
+{
+  "name": "anigo-controlled-pilot",
+  "owner": {
+    "name": "Anigo"
+  },
+  "plugins": [
+    {
+      "name": "anigo-script-audit",
+      "source": "./plugins/anigo-script-audit",
+      "description": "公司受控剧本程序审查试点",
+      "version": "0.2.0"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "anigo-script-audit": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${CODEBUDDY_PLUGIN_ROOT}/scripts/bridge.mjs"
+      ]
+    }
+  }
+}

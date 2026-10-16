@@ -1,0 +1,9 @@
+{
+  "name": "anigo-script-audit",
+  "version": "0.2.0",
+  "description": "提交本人剧本进行服务端程序审查，查询进度并取得报告；不包含核心方法源码。",
+  "author": {
+    "name": "Anigo"
+  },
+  "mcpServers": "./.mcp.json"
+}
