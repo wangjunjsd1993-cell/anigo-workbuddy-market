@@ -1,0 +1,7 @@
+{
+  "name": "anigo-company-skills",
+  "version": "1.0.0",
+  "description": "Anigo公司技能：在 WorkBuddy 里按公司方法完成任务（首批：剧本合规审查）。装上即用，无需登录；生图生视频请用 WorkRally 应用。",
+  "author": { "name": "Anigo" },
+  "mcpServers": "./.mcp.json"
+}

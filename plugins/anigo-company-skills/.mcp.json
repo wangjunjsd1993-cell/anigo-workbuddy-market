@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "anigo-company-skills": {
+      "type": "streamableHttp",
+      "url": "https://workbuddy-skills.morphlab.net/mcp",
+      "timeout": 30000
+    }
+  }
+}

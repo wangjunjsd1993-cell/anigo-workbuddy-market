@@ -5,6 +5,12 @@
   },
   "plugins": [
     {
+      "name": "anigo-company-skills",
+      "source": "./plugins/anigo-company-skills",
+      "version": "1.0.0",
+      "description": "Anigo公司技能：装上即用、无需登录，按公司方法完成任务（首批：剧本合规审查）"
+    },
+    {
       "name": "anigo-studio",
       "source": "./plugins/anigo-studio",
       "version": "0.1.0",
