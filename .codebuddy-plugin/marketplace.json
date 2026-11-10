@@ -9,6 +9,18 @@
       "source": "./plugins/anigo-company-skills",
       "version": "1.0.0",
       "description": "Anigo公司技能：装上即用、无需登录，按公司方法完成任务（首批：剧本合规审查）"
+    },
+    {
+      "name": "anigo-studio",
+      "source": "./plugins/anigo-studio",
+      "version": "0.1.1",
+      "description": "已停用（2026-11-10）：请在插件管理里卸载本插件，改用 anigo-company-skills（Anigo公司技能）。本版本没有任何工具，不会再要求登录。"
+    },
+    {
+      "name": "anigo-script-audit",
+      "source": "./plugins/anigo-script-audit",
+      "version": "0.2.1",
+      "description": "已停用（2026-11-10）：请在插件管理里卸载本插件，改用 anigo-company-skills（Anigo公司技能）。本版本没有任何工具，不会再要求登录。"
     }
   ]
 }

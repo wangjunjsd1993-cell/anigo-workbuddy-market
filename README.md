@@ -19,4 +19,4 @@
 
 ## 已停用的旧试点（2026-11-10）
 
-`anigo-studio`（要登录 Anigo Studio 的端到端产线试点）和 `anigo-script-audit`（要开通码的剧本程序审查试点）已经停用，市场里不再提供。电脑上装过的，请在 WorkBuddy 的插件管理里删除它们，只留 `anigo-company-skills`。
+`anigo-studio`（要登录 Anigo Studio 的端到端产线试点）和 `anigo-script-audit`（要开通码的剧本程序审查试点）已经停用。市场里保留的是两个没有任何工具的空壳版本（0.1.1／0.2.1），只为让装过的电脑能更新成空壳、并在插件管理里看到卸载按钮。没装过的不要装；装过的在插件管理里卸载它们，只留 `anigo-company-skills`。
