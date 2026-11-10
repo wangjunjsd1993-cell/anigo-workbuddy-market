@@ -9,18 +9,6 @@
       "source": "./plugins/anigo-company-skills",
       "version": "1.0.0",
       "description": "Anigo公司技能：装上即用、无需登录，按公司方法完成任务（首批：剧本合规审查）"
-    },
-    {
-      "name": "anigo-studio",
-      "source": "./plugins/anigo-studio",
-      "version": "0.1.0",
-      "description": "用本人 Anigo Studio 账号跑公司端到端产线（试点：到剧本＋分镜提示词）"
-    },
-    {
-      "name": "anigo-script-audit",
-      "source": "./plugins/anigo-script-audit",
-      "description": "公司受控剧本程序审查试点",
-      "version": "0.2.0"
     }
   ]
 }

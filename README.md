@@ -1,35 +1,22 @@
-# Anigo WorkBuddy 插件市场（试点）
+# Anigo WorkBuddy 插件市场
 
-这个仓库只放 WorkBuddy 插件的薄客户端：调用说明、连接配置和本地桥接程序。**不包含**公司的 skills、方法论、审查源码或任何凭据——这些只在公司服务端运行。仓库公开也不影响安全：没有账号就什么都调不了。
+这个仓库只放 WorkBuddy 插件的薄客户端：调用说明和连接配置。**不包含**公司的 skills、方法论、审查源码或任何凭据，这些都在公司服务端。
 
-## 插件零：anigo-company-skills（Anigo公司技能 · 1.0.0 · 推荐）
+## 只装一个：anigo-company-skills（Anigo公司技能）
 
-装上即用，不用登录、不用 Node.js。在对话里说「用公司方法审一下这个剧本」并附上剧本即可。
-- 干活用的是 WorkBuddy 自己的模型；公司服务器只按任务发放该项方法，不下发 skill 库原文。
-- 首批开放：剧本合规审查（国内／海外）。其余技能陆续开放，以 `list_skills` 返回为准。
-- 生图、生视频：插件只给出成品提示词，请在 WorkBuddy 的 **WorkRally** 应用中生成。
-- 也可不装插件：WorkBuddy → MCP 设置里添加远程服务 `https://workbuddy-skills.morphlab.net/mcp`。
-
-## 插件一：anigo-studio（端到端产线 · 试点 0.1.0）
-
-用你本人的 Anigo Studio 账号，在 WorkBuddy 里按公司 SOP 走：立项／共创 → 改编拆设定 → 设定图免费打样 → 剧本＋分镜提示词，并读回剧本、分镜和审计报告。
-试点只到「剧本＋分镜提示词」为止：付费出正式图、定稿、烧视频、拼成片，插件不会替你点确认，请到 anigo.ai 网页操作。
-
-## 插件二：anigo-script-audit（剧本程序审查 · 试点 0.2.0）
-
-把指定剧本提交到公司服务做 7 项程序化检查并取回报告。不做原作对照、创作语义、合规或版权审阅；程序 PASS 不等于作品合格。需要管理员单独开通（首次使用会给出开通码）。
+装上即用，不用登录、不用 Node.js。
+- 干活用的是 WorkBuddy 自己的模型；公司服务器只按任务发放该项方法和工具包。
+- 能做什么以 `list_skills` 返回为准：写剧本、分镜与视频提示词、生图提示词、合规审查、成片上线前检查、piccoma 交付等。
+- 做一整集：在对话里说「用公司skill制作<项目>EPxx」。
+- 生图、生视频在 WorkBuddy 的 **WorkRally** 应用里生成，提交前会先报花费，等你同意。
+- 也可以不装插件：WorkBuddy → MCP 设置里添加远程服务 `https://workbuddy-skills.morphlab.net/mcp`。
 
 ## 安装（每人一次）
 
-1. 电脑上需要 Node.js 18 或更新版本（终端输入 `node -v` 能看到版本号即可）。
-2. WorkBuddy → 插件 → 插件市场 → 添加市场，填：`https://github.com/wangjunjsd1993-cell/anigo-workbuddy-market.git`
-3. 在市场里安装 `anigo-studio`（需要剧本审查再装 `anigo-script-audit`）。
-4. 新开一个对话，说「用公司产线帮我……」。第一次会让你在浏览器里登录 Anigo Studio：账号密码只发给 anigo.ai，不经过对话，本机只保存登录后的会话（`~/.config/anigo-studio/session.json`，仅本人可读）。
+1. WorkBuddy → 插件 → 插件市场 → 添加市场，填：`https://github.com/wangjunjsd1993-cell/anigo-workbuddy-market.git`
+2. 在市场里安装 `anigo-company-skills`。
+3. 新开一个对话就能用。
 
-还没有 Anigo Studio 账号：找管理员要邀请码，在 anigo.ai 注册。
+## 已停用的旧试点（2026-11-10）
 
-## 隔离与撤销
-
-- 每个人用自己的账号，只能看到自己的项目和产物。
-- 管理员在 Anigo Studio 后台停用账号后，该人的会话立即失效。
-- 自己退出：在 WorkBuddy 里说「退出 Anigo Studio」，或删除上面那个会话文件。
+`anigo-studio`（要登录 Anigo Studio 的端到端产线试点）和 `anigo-script-audit`（要开通码的剧本程序审查试点）已经停用，市场里不再提供。电脑上装过的，请在 WorkBuddy 的插件管理里删除它们，只留 `anigo-company-skills`。
