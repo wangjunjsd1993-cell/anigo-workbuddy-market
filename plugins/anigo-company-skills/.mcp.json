@@ -3,7 +3,7 @@
     "anigo-company-skills": {
       "type": "streamableHttp",
       "url": "https://workbuddy-skills.morphlab.net/mcp",
-      "timeout": 30000
+      "timeout": 600000
     }
   }
 }
