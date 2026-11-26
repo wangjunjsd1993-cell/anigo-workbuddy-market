@@ -4,18 +4,15 @@
 
 ## 只装一个：anigo-company-skills（Anigo公司技能）
 
-装上即用，不用登录、不用 Node.js。
-- 干活用的是 WorkBuddy 自己的模型；公司服务器只按任务发放该项方法和工具包。
-- 能做什么以 `list_skills` 返回为准：写剧本、分镜与视频提示词、生图提示词、合规审查、成片上线前检查、piccoma 交付等。
-- 做一整集：在对话里说「用公司skill制作<项目>EPxx」。
+需公司 `@anigo.ai` 邮箱验证后使用。
+- 公司的 WorkBuddy 是给同事做动画和漫改整集用的。你把这一集的剧本带来，它会按公司方法帮你做分镜、首帧和报价；你看过并同意之后，才开始生成。生成前后你都可以提修改，它会按你的意见返修，并在交付前做检查。如果中间卡住了，直接说「卡住了」，我会帮你把问题记下来。
 - 生图、生视频在 WorkBuddy 的 **WorkRally** 应用里生成，提交前会先报花费，等你同意。
-- 也可以不装插件：WorkBuddy → MCP 设置里添加远程服务 `https://workbuddy-skills.morphlab.net/mcp`。
 
 ## 安装（每人一次）
 
 1. WorkBuddy → 插件 → 插件市场 → 添加市场，填：`https://github.com/wangjunjsd1993-cell/anigo-workbuddy-market.git`
 2. 在市场里安装 `anigo-company-skills`。
-3. 新开一个对话就能用。
+3. 新开一个对话，按提示用公司 `@anigo.ai` 邮箱完成验证即可使用。
 
 ## 已停用的旧试点（2026-11-10）
 
