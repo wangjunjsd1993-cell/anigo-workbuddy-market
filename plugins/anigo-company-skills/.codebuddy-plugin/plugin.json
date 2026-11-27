@@ -1,7 +1,7 @@
 {
   "name": "anigo-company-skills",
-  "version": "1.3.0",
-  "description": "Anigo公司技能：在 WorkBuddy 里按公司方法完成任务。装上即用，无需登录；生图生视频请用 WorkRally 应用。",
+  "version": "1.3.1",
+  "description": "Anigo 公司技能：用公司方法在 WorkBuddy 里做动画和漫改整集。需 @anigo.ai 邮箱验证。",
   "author": {
     "name": "Anigo"
   },
